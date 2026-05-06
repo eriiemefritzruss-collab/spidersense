@@ -1,11 +1,10 @@
 <div align="center">
 
-# <img src="./images/spider_icon2.png" width="60" style="vertical-align: text-bottom;"> Spider-Sense
+# `<img src="./images/spider_icon2.png" width="60" style="vertical-align: text-bottom;">` Spider-Sense
 
 <p align="center">
   <strong>Intrinsic Risk Sensing for Efficient Agent Defense with Hierarchical Adaptive Screening</strong>
 </p>
-
 
 <p align="center">
   <em>An event-driven defense framework allowing agents to maintain latent vigilance and trigger defenses only upon risk perception.</em>
@@ -79,9 +78,9 @@ Spider-Sense protects four security-critical stages using specialized defense ta
 
 ---
 
-## 📊 S<sup>2</sup>Bench
+## 📊 S `<sup>`2 `</sup>`Bench
 
-To facilitate rigorous evaluation, we introduce **S<sup>2</sup>Bench**, a lifecycle-aware benchmark featuring:
+To facilitate rigorous evaluation, we introduce **S `<sup>`2 `</sup>`Bench**, a lifecycle-aware benchmark featuring:
 
 * **Multi-stage Attacks**: Covers Query, Plan, Action, and Observation stages.
 * **Realistic Tool Execution**: Involves actual tool selection and parameter generation (approx. 300 functions).
@@ -244,24 +243,3 @@ python scripts/run_stage_4_parallel.py \
     --llm_name qwen-max \
     --num_attack 50
 ```
-
----
-
-## 📖 Citation
-
-If you use Spider-Sense or S<sup>2</sup>Bench in your research, please cite our paper:
-
-```bibtex
-@misc{yu2026spidersenseintrinsicrisksensing,
-      title={Spider-Sense: Intrinsic Risk Sensing for Efficient Agent Defense with Hierarchical Adaptive Screening}, 
-      author={Zhenxiong Yu and Zhi Yang and Zhiheng Jin and Shuhe Wang and Heng Zhang and Yanlin Fei and Lingfeng Zeng and Fangqi Lou and Shuo Zhang and Tu Hu and Jingping Liu and Rongze Chen and Xingyu Zhu and Kunyi Wang and Chaofa Yuan and Xin Guo and Zhaowei Liu and Feipeng Zhang and Jie Huang and Huacan Wang and Ronghao Chen and Liwen Zhang},
-      year={2026},
-      eprint={2602.05386},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2602.05386}, 
-}
-```
-
----
-
