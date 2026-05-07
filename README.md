@@ -137,40 +137,6 @@ Spider-Sense achieves state-of-the-art defense performance with minimal latency 
 
 ---
 
-## 🚀 Quick Start
-
-### 1. Installation
-
-```bash
-git clone https://github.com/your-repo/SpiderSense.git
-cd SpiderSense
-pip install -r requirements.txt
-```
-
-### 2. Configuration
-
-Set up your API keys. We recommend using **OpenRouter** for broad model support.
-
-```bash
-# Create .env file
-OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxx
-```
-
-### 3. Run Defense Test
-
-Enable **Intrinsic Risk Sensing** (IRS) using the defense template:
-
-```bash
-python main_attacker.py \
-    --llm_name qwen-max \
-    --defense_template template/spider_template.txt \
-    --template_position system \
-    --res_file results/spider_sense_test.csv
-```
-
----
-
----
 
 ## 📂 Project Structure
 
